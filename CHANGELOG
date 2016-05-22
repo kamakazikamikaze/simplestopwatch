@@ -1,0 +1,19 @@
+0.3.2 May 22, 2016
+===========================================
+- Added human-readable elapsed function
+
+0.3.1 January 10, 2009
+===========================================
+- Added clockit decorator
+
+0.3.0: August 8, 2008
+===========================================
+-Added unit testing
+-Can retrieve the time in seconds since Epoch for start and stop calls
+-Downgrade property meta
+-Tested on jython 2.2, pypy 2.4.1
+-Cleaned up setup.py
+
+0.2.0: August 7, 2008
+===========================================
+-Initial Release
