@@ -16,7 +16,7 @@ setup(
     download_url='https://github.com/kamakazikamikaze/simplestopwatch',
     license='BSD',
     platforms=['POSIX', 'Windows'],
-    keywords=['timer', 'watch', 'execution', 'timeit'],
+    keywords=['timer', 'stopwatch', 'execution', 'timeit'],
     classifiers=[
         'License :: OSI Approved :: BSD License',
         'Operating System :: OS Independent',
@@ -26,6 +26,7 @@ setup(
         'Intended Audience :: Developers'
     ],
     packages=['simplestopwatch'],
+    py_modules=['simplestopwatch'],
     test_suite='simplestopwatch.tests.suite',
     use_2to3=True,
     zip_safe=True,

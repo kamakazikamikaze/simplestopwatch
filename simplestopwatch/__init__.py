@@ -32,10 +32,10 @@ mult in 1.38282775879e-05 sec
 6
 
 """
-
+from __future__ import print_function
 import time
 
-__version__ = '0.3.2'
+__version__ = '0.3.3'
 __author__ = 'John Paulett <http://blog.7oars.com>, Kent Coble <https://github.com/kamakazikamikaze'
 
 
@@ -124,7 +124,7 @@ def clockit(func):
         t = Timer()
         retval = func(*args, **kw)
         t.stop()
-        print '%s in %s' % (func.__name__, t)
+        print("{} in {}".format(func.__name__, t))
         del t
         return retval
     return new
