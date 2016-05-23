@@ -24,6 +24,14 @@ Originally named `stopwatch`, the `simplestopwatch` module is designed for uncom
 The module is able to report human-readable format in seconds, minutes, hours, days, and weeks. If you need anything higher than that, you may want to have your cranium checked.
 
 
+## Installation
+
+We're now on PyPi! To install, simply run:
+
+`pip install simplestopwatch`
+
+This can be used for both Python 2 and 3!
+
 ### Acknowledgements
 
 Many thanks to John Paulett (john@7oars.com) as the original author of this package. This was cloned from his collection at https://code.google.com/archive/p/7oars/
